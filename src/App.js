@@ -11,7 +11,7 @@ function App() {
         <Routes> 
 
           <Route path = "/detail/:ID" element ={ <Moviedetail/>}  /> 
-          <Route path = "/list" element ={ <MovieList/>}  /> 
+          <Route path = "/" element ={ <MovieList/>}  /> 
 
         
         </Routes>
